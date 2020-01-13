@@ -1,0 +1,8 @@
+Acknowledgments
+This dataset was created by the company figure-eight and originally shared on their ‘Data For Everyone’ website here.
+Competition Link: https://www.kaggle.com/c/nlp-getting-started
+
+Tweet source: https://twitter.com/AnyOtherAnnaK/status/629195955506708480
+
+
+Twitter has become an important communication channel in times of emergency. The ubiquitousness of smartphones enables people to announce an emergency they’re observing in real-time. Because of this, more agencies are interested in programmatically monitoring Twitter (i.e. disaster relief organizations and news agencies). Based on a Kaggle dataset, and the Kaggle competition I participated in, I implemented a machine learning model to predict which Tweets are about real disasters and which one’s aren’t. I employed WordNetLemmatizer for extracting root words and used TFIDF (term frequency–inverse document frequency)for vectorizing the values. Playing around with different feature engineering methods, feature selection, and different classifiers, it gave maximum accuracy of 80%.
